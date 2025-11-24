@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Enviada</title>
+
+    <!-- Fonte Outfit -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(17, 17, 17, 0.85);
+            padding: 45px 35px;
+            border-radius: 18px;
+            max-width: 600px;
+            width: 90%;
+            border: 1px solid rgba(0, 180, 255, 0.25);
+            box-shadow: 0 0 25px rgba(0, 180, 255, 0.15);
+            animation: fadeInUp 0.7s ease;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #00b4ff;
+            margin-bottom: 20px;
+            text-shadow: 0 0 12px rgba(0, 180, 255, 0.4);
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #00b4ff;
+            opacity: 0.85;
+            line-height: 1.6;
+        }
+
+        .btn-voltar {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 35px;
+            background-color: #00b4ff;
+            color: #111;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: 0.3s ease;
+            box-shadow: 0 0 12px rgba(0, 180, 255, 0.4);
+        }
+
+        .btn-voltar:hover {
+            background-color: transparent;
+            color: #00b4ff;
+            box-shadow: 0 0 15px rgba(0, 180, 255, 0.7);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Obrigado! Sua mensagem foi enviada 🚀</h1>
+
+        <p>
+            Recebi sua solicitação de orçamento e vou analisar com carinho cada detalhe do seu projeto.  
+            Em até <strong>24 horas</strong> entrarei em contato com uma proposta personalizada para você.
+        </p>
+
+        <p>
+            Enquanto isso, fique à vontade para continuar navegando pelo meu portfólio.
+        </p>
+
+        <a href="index.html" class="btn-voltar">Voltar ao Portfólio</a>
+    </div>
+
+</body>
+</html>
